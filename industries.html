@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarbanes Oxley (SOX)</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/lato.css">
+    <link rel="stylesheet" href="assets/fonts/dm_sarif_display.css">
+    <link rel="shortcut icon" href="assets/images/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="who_we_are.html">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SOX_Implementation.html">SOX Implementation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="industries.html">Industries</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-primary">Contact Us</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header class="container">
+        <div class="row py-5 custom-reverse">
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <img src="assets/images/header-img-3.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-5 header-2">
+                <div class="mt-lg-5">
+                    <h2 class="border-left-theme ps-3">Industries We Serve</h2>
+                    <div class="mt-5">
+                        <h1 class="main-heading">
+                            Expert Solutions Tailored to Your Industry's Needs
+                        </h1>
+                        <h3>
+                            Industry-Specific Expertise for Robust Financial Control
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="bg-light">
+            <div class="container">
+                <div class="row py-4 justify-content-center align-items-center industries-tabs">
+                    <ul class="nav nav-tabs" id="newTabList" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="newHomeTab" data-bs-toggle="tab"
+                                data-bs-target="#newHomeTabPane" type="button" role="tab" aria-controls="newHomeTabPane"
+                                aria-selected="true">Manufacturing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="newProfileTab" data-bs-toggle="tab"
+                                data-bs-target="#newProfileTabPane" type="button" role="tab"
+                                aria-controls="newProfileTabPane" aria-selected="false">Telecom</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="newContactTab" data-bs-toggle="tab"
+                                data-bs-target="#newContactTabPane" type="button" role="tab"
+                                aria-controls="newContactTabPane" aria-selected="false">Energy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="newDisabledTab" data-bs-toggle="tab"
+                                data-bs-target="#newDisabledTabPane" type="button" role="tab"
+                                aria-controls="newDisabledTabPane" aria-selected="false">Utilities</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="healthcare-tab" data-bs-toggle="tab"
+                                data-bs-target="#healthcare-tab-pane" type="button" role="tab"
+                                aria-controls="healthcare-tab-pane" aria-selected="true">Healthcare</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="real-estate-tab" data-bs-toggle="tab"
+                                data-bs-target="#real-estate-tab-pane" type="button" role="tab"
+                                aria-controls="real-estate-tab-pane" aria-selected="false">Real Estate</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="basic-materials-tab" data-bs-toggle="tab"
+                                data-bs-target="#basic-materials-tab-pane" type="button" role="tab"
+                                aria-controls="basic-materials-tab-pane" aria-selected="false">Basic Materials</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="technology-tab" data-bs-toggle="tab"
+                                data-bs-target="#technology-tab-pane" type="button" role="tab"
+                                aria-controls="technology-tab-pane" aria-selected="false">Technology</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="tab-content" id="newTabContent">
+                <div class="tab-pane fade show active" id="newHomeTabPane" role="tabpanel" aria-labelledby="newHomeTab"tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="newProfileTabPane" role="tabpanel" aria-labelledby="newProfileTab" tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="newContactTabPane" role="tabpanel" aria-labelledby="newContactTab"
+                    tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="newDisabledTabPane" role="tabpanel" aria-labelledby="newDisabledTab"
+                    tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="healthcare-tab-pane" role="tabpanel"
+                    aria-labelledby="healthcare-tab" tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="real-estate-tab-pane" role="tabpanel" aria-labelledby="real-estate-tab"
+                    tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="basic-materials-tab-pane" role="tabpanel"
+                    aria-labelledby="basic-materials-tab" tabindex="0">
+                    <div class="bg-black">
+                        <div class="row py-5 justify-content-between">
+                            <div class="col-lg-6 ms-lg-5 text-white mt-4">
+                                <h2 class="fs-1 fw-bold text-white">
+                                    Manufacturing Industry
+                                </h2>
+                                <h4 class="my-3 text-white">
+                                    Optimizing Operations and Compliance in Manufacturing
+                                </h4>
+                                <p style="line-height: 38px;">
+                                    Manufacturing companies face unique challenges in maintaining compliance and optimizing processes. Our services focus on SOX compliance, process efficiency, and operational risk management to help manufacturers streamline operations and mitigate risks.
+                                </p>
+                                <div class="py-4"></div>
+                            </div>
+                            <div class="col-lg-5 text-end">
+                                <img src="assets/images/categories-image-manufacturing.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="tab-pane fade" id="technology-tab-pane" role="tabpanel" aria-labelledby="technology-tab"
+                    tabindex="0">...</div>
+            </div>
+
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="mt-4 treding-heading text-theme">
+                    Trending
+                </h2>
+                <h2 class="treding-headin-2">
+                    Insights & Resources
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div>
+                        <img src="assets/images/blog-1.png" class="img-fluid w-100">
+                        <p class="my-3 blog-date">
+                            May 9, 2023
+                        </p>
+                        <h5 class="my-3 fw-bold">
+                            Latest Trends in SOX Compliance
+                        </h5>
+                        <p>
+                            Discover the evolving landscape of SOX compliance in the UK and how your company can stay
+                            ahead.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="assets/images/blog-2.png" class="img-fluid w-100">
+                        <p class="my-3 blog-date">
+                            May 9, 2023
+                        </p>
+                        <h5 class="my-3 fw-bold">
+                            Best Practices for Effective Risk Management
+                        </h5>
+                        <p>
+                            Discussing the shift from realistic designs to minimalistic, flat designs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="assets/images/blog-3.png" class="img-fluid w-100">
+                        <p class="my-3 blog-date">
+                            May 9, 2023
+                        </p>
+                        <h5 class="my-3 fw-bold">
+                            Expert Opinions
+                        </h5>
+                        <p>
+                            Exploring the significance of putting the user first in IT projects
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button class="btn btn-primary px-4 py-2">
+                        Load more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 section-email">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/email.png" class="img-fluid">
+                        <h3 class="text-white fw-bold m-0 ms-3">
+                            Sign up for our weekly round up and get the insights you need to stay on top
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex">
+                        <input type="email" class="form-control me-3" id="FormControlInput1"
+                            placeholder="name@example.com">
+                        <button class="btn btn-white">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>
+                        See How We Can Help Your Industry
+                    </h2>
+                    <p class="px-lg-5">
+                        "Former Big 4 Consultants, Now on Your Team"
+                    </p>
+                    <div class="mt-4">
+                        <button class="btn btn-primary px-4 py-2">
+                            Schedule a Free Consultation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="border-left-theme ps-3">Reach out to us</h4>
+                    <h2 class="main-heading my-4">
+                        Contact Us Today For A Free Consultation
+                    </h2>
+                    <p class="text-secondary mt-4" style="line-height: 30px;">
+                        Our team of experts is here to guide you through every step of your SOX compliance journey.
+                        Reach out to us for a no-obligation consultation and see how we can help your business achieve
+                        compliance efficiently and effectively.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="border rounded p-3">
+                        <div class="mb-3">
+                            <label for="Name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Arshad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Surname" class="form-label">Surname</label>
+                            <input type="text" class="form-control" id="Surname" placeholder="Saeed">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Message" class="form-label">Message</label>
+                            <textarea class="form-control" id="Message" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-dark w-100">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <a href="#"><img src="assets/images/footer-icon/Figma.png"></a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="#"><img src="assets/images/footer-icon/X Logo.png" class="me-2"></a>
+                        <a href="#"><img src="assets/images/footer-icon/Logo Instagram.png" class="me-2"></a>
+                        <a href="#"><img src="assets/images/footer-icon/Logo YouTube.png" class="me-2"></a>
+                        <a href="#"><img src="assets/images/footer-icon/LinkedIn.png" class="me-2"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <p class="fw-bold">
+                            Use cases
+                        </p>
+                    </div>
+                    <ul class="mt-3">
+                        <li>
+                            <a href="#">UI design</a>
+                        </li>
+                        <li>
+                            <a href="#">UX design</a>
+                        </li>
+                        <li>
+                            <a href="#">Wireframing</a>
+                        </li>
+                        <li>
+                            <a href="#">Diagramming</a>
+                        </li>
+                        <li>
+                            <a href="#">Brainstorming</a>
+                        </li>
+                        <li>
+                            <a href="#">Online whiteboard</a>
+                        </li>
+                        <li>
+                            <a href="#">Team collaboration</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <p class="fw-bold">
+                            Explore
+                        </p>
+                    </div>
+                    <ul class="mt-3">
+                        <li>
+                            <a href="#">Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Prototyping</a>
+                        </li>
+                        <li>
+                            <a href="#">Development features</a>
+                        </li>
+                        <li>
+                            <a href="#">Design systems</a>
+                        </li>
+                        <li>
+                            <a href="#">Collaboration features</a>
+                        </li>
+                        <li>
+                            <a href="#">Design process</a>
+                        </li>
+                        <li>
+                            <a href="#">FigJam</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <p class="fw-bold">
+                            Resources
+                        </p>
+                    </div>
+                    <ul class="mt-3">
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Best practices</a>
+                        </li>
+                        <li>
+                            <a href="#">Colors</a>
+                        </li>
+                        <li>
+                            <a href="#">Color wheel</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Developers</a>
+                        </li>
+                        <li>
+                            <a href="#">Resource library</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
