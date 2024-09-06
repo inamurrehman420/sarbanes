@@ -23,6 +23,19 @@ a {
     text-decoration: none;
 }
 
+.indus .nav-tabs .nav-link.active {
+    border: none;
+    color: #fff;
+    background-color: #F47920;
+    font-weight: 500;
+    border-radius: 12px !important;
+}
+
+.indus  .nav .nav-item {
+    border-bottom: 1px solid transparent;
+}
+
+
 .navbar {
     box-shadow: 10px -4px 16px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 10px -4px 16px 0px rgba(0, 0, 0, 0.1);
